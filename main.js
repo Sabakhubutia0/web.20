@@ -39,7 +39,7 @@ const slideFn = () => {
 
   prevSlideBtn.addEventListener("click", goToPrevSlide);
   nextSlideBtn.addEventListener("click", goToNextSlide);
-  // const sliderInterval = setInterval(goToNextSlide, 5000);
+  const sliderInterval = setInterval(goToNextSlide, 5000);
 
   showSlides();
 };
